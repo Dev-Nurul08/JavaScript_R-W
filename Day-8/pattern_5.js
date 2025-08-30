@@ -5,7 +5,7 @@ while(i <=5){
     let j = 6 -i ;
     while(j >= 1){
         str += `${j}`;
-        j++;
+        j--;
     }
     i++;
     console.log(str);
