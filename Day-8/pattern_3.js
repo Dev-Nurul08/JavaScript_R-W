@@ -1,10 +1,11 @@
-let i = 1 ;
-while( i <= 5){
+let i=1 ;
+
+while(i <= 5){
     let str = '';
-    let j = i;
-    while(j >= 1){
+    let j = 6 - i ;
+    while(j <= 5){
         str += `${j}`;
-        j--;
+        j++;
     }
     console.log(str);
     i++;
