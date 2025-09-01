@@ -4,7 +4,7 @@ while(i <= 5){
     let str = '';
     let j= 5;
     while(j >= 6-i ){
-        str += `${j}`;
+        str += `${j} `;
         j--
     }
 

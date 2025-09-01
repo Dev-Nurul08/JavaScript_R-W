@@ -1,17 +1,22 @@
-let i =1 ;
+let i = 1;
 
 while(i <= 5){
     let str = '';
-    let j = 1;
     let k = 5;
     while(k > i){
         str += "  ";
         k--
     }
-    while(j <= i){
+    let j = 1; 
+    while(j <= i ){
         str += `${j} `;
         j++;
     }
-    console.log("",str);
+    let l = i-1;
+    while(l >= 1 ){
+         str += `${l} `;
+        l--;
+    }
+    console.log(str);
     i++;
 }
