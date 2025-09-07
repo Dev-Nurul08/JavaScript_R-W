@@ -3,16 +3,14 @@ const main = () =>{
     let val = 20;
         const subMain = () =>{
             let val = 30 ;
-            childMain();
-            subMain();
-            console.log(`Value from submain = ${val}`);
             const childMain = () =>{
                 let val = 40 ;
                 console.log(`Value from Child main = ${val}`);
-
-                
             }
+            childMain();
+            console.log(`Value from sub main ${val}`);        
         }
+        subMain();
         console.log(`Value from main ${val}`);        
 }
 
