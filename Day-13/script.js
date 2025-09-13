@@ -71,7 +71,7 @@ let displaQuote = (quote) => {
 };
 
 // Next Quote
-const nextQuote = () => {
+const next = () => {
     if (index >= quotes.length - 1) {
         index = -1;
     }
@@ -79,7 +79,7 @@ const nextQuote = () => {
 };
 
 // Previous Quote
-const prevQuote = () => {
+const prev = () => {
     if (index <= 0) {
         index = quotes.length;
     }
@@ -87,4 +87,4 @@ const prevQuote = () => {
 };
 
 // Show first quote on load
-nextQuote();
+prev();
