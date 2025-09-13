@@ -184,4 +184,4 @@ const prev = () => {
 };
 
 // Load the first quote
-prev();
+next();
