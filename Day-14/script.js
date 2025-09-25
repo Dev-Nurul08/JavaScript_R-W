@@ -1,7 +1,7 @@
 let email = document.getElementById('email');
 let password = document.getElementById('password');
 
-let users =JSON.parse(localStorage.getItem('users')) || [];
+let users =JSON.parse(localStorage.getItem('users'));
 
 function getUserData(){
     let user = {
